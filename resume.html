@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <h1 style="text-align: center;color:brown;">RESUME BUILDER</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume builder</title>
+    <link rel="stylesheet" href="./resume.css">
+</head>
+
+<body>
+
+    <div id="box1">
+    <div id="image">
+        <h3>Image</h3>
+        <input type="file" name="image" id="image">
+    </div>
+    <div id="name">
+        <h2>Name</h2>
+        <input type="text" name="fname" id="fname" value="" placeholder="First Name">
+        <input type="text" name="lname" id="lname" value="" placeholder="Last Name">
+    </div>
+    <div>
+        <h2>Contact details</h2>
+        <label>phone Number</label>
+        <input type="text" name="pnum" id="pnum" value="+91"><br>
+        <label>Email</label>
+        <input type="email" name="email" id="email" value="" placeholder="Enter your Email"><br>
+        <label>Address</label>
+        <textarea name="enter your profile" id="address" cols="20" rows="1"
+            placeholder="Enter the Address"></textarea><br>
+        <label>linkdin</label>
+        <input type="text" name="linkdin" id="linkdin" value="" placeholder="Link of your linkdin"><br>
+        <label>GitHub</label>
+        <input type="text" name="git" id="git" value="" placeholder="Link your GitHub">
+        <div id="soskills">
+            <h2>Soft skills</h2>
+            <input type="text" name="sskills" id="sskills" value="" placeholder="Enter your skills"><br>
+            <input type="button" id="addbtn" value="add" onclick="sadd()">
+        </div>
+    </div>
+    </div>
+    <div id="box2">
+    <div id="teskills">
+        <h2>Technical skills</h2>
+        <input type="text" name="tskills" id="tskills" value="" placeholder="Enter your skills"><br>
+        <input type="button" id="addbtn" value="add" onclick="tadd()"><br>
+    </div>
+
+    <div id="carrier">
+        <h2>Carrier Objective</h2>
+        <textarea name="enter your profile" id="objective" class="objective" cols="40" rows="10" placeholder="Enter your profile"></textarea>
+    </div>
+    <div id="Project">
+        <h4>Project</h4>
+        <textarea name="project" id="project" cols="40" rows="10"></textarea>
+   </div>
+    </div>
+    <div id="education">
+        <h2 id="edc">Education</h2>
+        <table border="2px">
+            <thead>
+                <th>Education</th>
+                <th>Institute Name</th>
+                <th>spelization</th>
+                <th>passed year</th>
+                <th>CGPA/Percentage</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" name="education" id="education" value="" placeholder="UG/PG"></td>
+                    <td><input type="text" name="insname" id="insname" value="" placeholder="Institute"></td>
+                    <td><input type="text" name="spelization" id="spelization" value="" placeholder="Degree"></td>
+                    <td><input type="text" name="passedout" id="pout" value="" placeholder="year"></td>
+                    <td><input type="text" name="cgpa" id="cgpa" value="" placeholder="CGPA/Percentage"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="education1" id="education1" value="" placeholder="12th/diploma"></td>
+                    <td><input type="text" name="insname1" id="insname1" value="" placeholder="School/Institute"></td>
+                    <td><input type="text" name="spelization1" id="spelization1" value="" placeholder="Major"></td>
+                    <td><input type="text" name="passedout1" id="pout1" value="" placeholder="year"></td>
+                    <td><input type="text" name="cgpa1" id="cgpa1" value="" placeholder="CGPA/Percentage"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="education2" id="education2" value="" placeholder="10th"></td>
+                    <td><input type="text" name="insname2" id="insname2" value="" placeholder="School"></td>
+                    <td><input type="text" name="spelization2" id="spelization2" value="" placeholder="Major"></td>
+                    <td><input type="text" name="passedout2" id="pout2" value="" placeholder="year"></td>
+                    <td><input type="text" name="cgpa2" id="cgpa2" value="" placeholder="CGPA/Percentage"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+    <input type="button" id="button" value="sumit" onclick="formsummit()">
+
+    <div id="resume">
+
+    </div>
+
+
+    <script src="./resume1.js"></script>
+</body>
+
+</html>

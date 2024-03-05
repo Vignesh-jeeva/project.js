@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background-color: rgb(159, 226, 197);
+    /* background-color:lightblue; */
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#img,#name,div,#teskills,#soskills,#carrier,#education,input{
+    margin: 10px;
+}
+#box1,#box2{
+    display: inline-block;
+    margin-left: 165px;
+}
+#button{
+    margin-left: 95%;
+    background-color:red;
+    color: white;
+    border-radius: 5px;
+}
+#addbtn{
+    background-color:blue;
+    color: white;
+    border-radius: 5px;
+}
+.objective,input,textarea{
+    background-color:rgb(212, 239, 212);
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px black;
+}
+textarea:hover{
+    background-color: white;
+}
+.objective:hover{
+    background-color: rgb(255, 255, 255);
+}
+input:hover{
+    background-color: rgb(255, 255, 255);
+}
+table{
+    background-color: rgb(213, 241, 229);
+    border-radius: 6px;
+    box-shadow: 1px 1px 15px black;
+    margin-left: 100px;
+}
+#edc{
+    margin-left: 100px;
+}
+
+/* new */
+.container{
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.strat{
+    display: block;
+    height: 700px;
+}
+#name{
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+}
+.img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    top: 10px;
+}
+.name{
+    color:brown;
+    margin-left:30px ;
+}
+.info{
+    margin-left:30px ;
+
+}
+#table{
+    background-color: rgb(169, 168, 168);
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.th{
+    color: brown;
+    box-shadow: 1px 1px 5px black;
+}
+td,tr{
+    box-shadow: 1px 1px 5px black;
+}
+.container2{
+    display: inline-block;
+    border: 1px solid black;
+    width: 44%;
+    height:443px;
+    position: relative;
+    bottom: 30px;
+}
+.container1{
+    display: inline-block;
+    border: 1px solid black;
+    width: 55%;
+
+}
